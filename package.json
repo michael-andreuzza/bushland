@@ -1,0 +1,41 @@
+{
+    "name": "bushland",
+    "displayName": "Bushland",
+    "description": "Earthy, calm and cozy, usable on dark and very ligh spaces",
+    "publisher": "wicked-labs",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/michael-andreuzza/relentless.git"
+    },
+    "bugs": {
+        "url": "https://github.com/michael-andreuzza/relentless.git",
+        "email": "michael@andreuzza.com"
+    },
+    "icon": "logo/theme-icon.png",
+    "galleryBanner": {
+        "color": "#3E433E",
+        "theme": "dark"
+    },
+    "version": "0.15.0",
+    "engines": {
+        "vscode": "^1.72.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "michael andreuzza",
+        "bush",
+        "green",
+        "orange"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Bushland",
+                "uiTheme": "vs-dark",
+                "path": "./themes/bushland.json"
+            }
+        ]
+    }
+}
