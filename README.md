@@ -1,44 +1,13 @@
-
-
-# *Relentless theme for VS Code.
-### Options
-You have two themes, Midnight n' Sunset and here the screenshots
-### Sunset
-
-![VS Code Marketplace](https://github.com/michael-andreuzza/relentless/blob/master/images/sunset-screenshots/cpp.png?raw=true)
-![VS Code Marketplace](https://github.com/michael-andreuzza/relentless/blob/master/images/sunset-screenshots/cs.png?raw=true)
-![VS Code Marketplace](https://github.com/michael-andreuzza/relentless/blob/master/images/sunset-screenshots/css.png?raw=true)
-![VS Code Marketplace](https://github.com/michael-andreuzza/relentless/blob/master/images/sunset-screenshots/html.png?raw=true)
-![VS Code Marketplace](https://github.com/michael-andreuzza/relentless/blob/master/images/sunset-screenshots/java.png?raw=true)
-![VS Code Marketplace](https://github.com/michael-andreuzza/relentless/blob/master/images/sunset-screenshots/js.png?raw=true)
-![VS Code Marketplace](https://github.com/michael-andreuzza/relentless/blob/master/images/sunset-screenshots/md.png?raw=true)
-![VS Code Marketplace](https://github.com/michael-andreuzza/relentless/blob/master/images/sunset-screenshots/py.png?raw=true)
-![VS Code Marketplace](https://github.com/michael-andreuzza/relentless/blob/master/images/sunset-screenshots/sh.png?raw=true)
-
-### Midnight
-![VS Code Marketplace](https://github.com/michael-andreuzza/relentless/blob/master/images/midnight-screenshots/cpp.png?raw=true)
-![VS Code Marketplace](https://github.com/michael-andreuzza/relentless/blob/master/images/midnight-screenshots/cs.png?raw=true)
-![VS Code Marketplace](https://github.com/michael-andreuzza/relentless/blob/master/images/midnight-screenshots/css.png?raw=true)
-![VS Code Marketplace](https://github.com/michael-andreuzza/relentless/blob/master/images/midnight-screenshots/html.png?raw=true)
-![VS Code Marketplace](https://github.com/michael-andreuzza/relentless/blob/master/images/midnight-screenshots/java.png?raw=true)
-![VS Code Marketplace](https://github.com/michael-andreuzza/relentless/blob/master/images/midnight-screenshots/js.png?raw=true)
-![VS Code Marketplace](https://github.com/michael-andreuzza/relentless/blob/master/images/midnight-screenshots/md.png?raw=true)
-![VS Code Marketplace](https://github.com/michael-andreuzza/relentless/blob/master/images/midnight-screenshots/py.png?raw=true)
-![VS Code Marketplace](https://github.com/michael-andreuzza/relentless/blob/master/images/midnight-screenshots/sh.png?raw=true)
-
+# *Bushland theme for VS Code.
 # Installation
-
 1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
-2. Search for **`Relentless`**
+2. Search for **`Bushland`**
 3. Click **Install** to install it.
 4. Code > Preferences > Color Theme >
- **Relentless**
-
+ **Bushland**
 ## Personal Settings.
-
 ```js
 {
-
   "editor.fontFamily": "'Dank Mono', monospace",
   "editor.fontSize": 18,
   "editor.lineHeight": 38,
@@ -52,15 +21,13 @@ You have two themes, Midnight n' Sunset and here the screenshots
   "editor.renderWhitespace": "all",
 }
 ```
-
 The theme uses italics for certain language tokens by default.
 To **disable** italics, add this snippet to your `settings.json`:
   - quotes and *italic* strings (like in markdown) will be unaffected and still be italic
   - if you want to exclude one of the themes from this change, simply remove its name (along with the brackets `[]`) at the top of the snippet
-
 ```jsonc
 "editor.tokenColorCustomizations": {
-  "[Relentless Sunset]": {
+  "[Bushland]": {
     "textMateRules": [
       {
         "scope": [
@@ -137,8 +104,6 @@ To **disable** italics, add this snippet to your `settings.json`:
   },
 },
 ```
-
-
-Relentless Theme created by [Micheal Andreuzza](https://github.com/michael-andreuzza).
+Bushland Theme created by [Micheal Andreuzza](https://github.com/michael-andreuzza).
 [Twitter](https://twitter.com/Mike_Andreuzza)
 # bushland

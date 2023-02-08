@@ -5,10 +5,10 @@
     "publisher": "wicked-labs",
     "repository": {
         "type": "git",
-        "url": "https://github.com/michael-andreuzza/relentless.git"
+        "url": "https://github.com/michael-andreuzza/bushland.git"
     },
     "bugs": {
-        "url": "https://github.com/michael-andreuzza/relentless.git",
+        "url": "https://github.com/michael-andreuzza/bushland.git",
         "email": "michael@andreuzza.com"
     },
     "icon": "logo/theme-icon.png",
@@ -16,7 +16,7 @@
         "color": "#3E433E",
         "theme": "dark"
     },
-    "version": "0.15.0",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.72.0"
     },
